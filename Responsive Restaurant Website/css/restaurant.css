@@ -1,0 +1,359 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+/* Styling My Nav Tag */
+
+nav{
+    border: 0px solid red;
+    background-color: rgb(13, 10, 10);
+    opacity:0.8;
+    padding: 1rem 0.75rem;
+}
+/* Fixing My Navbar Position */
+.sticky{
+    position: fixed;
+    top:0;
+    width: 100%;
+}
+/* **************** */
+
+nav ul{
+    border: 0px solid blue;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+nav li{
+    border: 0px solid green;
+    width: 8rem;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 0.7rem;
+}
+nav a {
+    border: 0px dotted white;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    padding: 0.5rem;
+  }
+  nav a:hover {
+    background-color: white;
+    color: red;
+  }
+  /* Styling my logo */
+  .logo{
+    border: 0px solid red;
+    position: relative;
+    top: 18px;
+    display: inline-block;
+  }
+  .logo img{
+    height: 3.6875rem;
+    margin: 3px 6px;
+    border: 0px solid gray;
+    background-color: white;
+    padding: 0 0.8rem;
+    border: none;
+    border-radius: 35%;
+  }
+
+
+  /* Styling My Header/Home Section */
+
+  header{
+    background: url(../bg1.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding:18.75rem 1.75rem;
+    border: 0px solid red;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .home h1{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 3rem;
+    font-size: 5rem;
+  }
+
+
+  /* Styling My Text */
+  .our-restaurant{
+    line-height: 1.3; 
+    padding: 2px 0; 
+    width: 50rem;
+  }
+  .our-restaurant p{
+    padding: 4px 0;
+    display: inline;
+    margin: 0; 
+    color: wheat;
+    font-size: 2rem;
+  }
+  /* *********************** */
+
+  /* Styling My Order Now Button */
+
+  button{
+    margin-top: 1rem;
+    padding: 0.5rem 1.5rem;
+    border-radius: 6%;
+    color: white;
+    font-size: 1rem;
+    background-color: grey;
+    border: none;
+    cursor: pointer;
+  }
+
+  /* Styling Restaurant's Service Section. */
+
+  .services{
+    border: 0px solid red;
+    padding: 10rem;
+    background-color: silver;
+  }
+  .services h1{
+    border: 0px solid red;
+    margin-bottom: 5rem;
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+  }
+  .box{
+    border: 3px solid gray;
+    /* width:25%; */
+    padding: 7rem 2rem;
+    text-align: center;
+    border: 3px solid wheat;
+    border-radius: 5%;
+  }
+  .box p{
+    line-height: 2.3rem;
+    word-spacing: 5px;
+    font-weight: 800;
+  }
+  .box img{
+    position: relative;
+    bottom: 3.125rem;
+  }
+  .box h3{
+    font-size: 2.3rem;
+    margin-bottom: 1rem;
+  }
+
+  .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-content: space-between;
+    align-content: center;
+    column-gap: 3rem;
+  }
+
+/* Styling Restaurant's Client Section */
+.our-clients{
+  padding: 5.3rem;
+  background-image: url(../bg.jpg);
+  opacity: 0.6;
+}
+
+.our-clients h1{
+  border: 0px solid red;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 3.5rem;
+  padding: 1rem 0;
+}
+
+.img-container{
+  display: flex;
+  flex-flow: row-reverse wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+/* *************************************** */
+
+/* Styling The Contact Form */
+.contact-form h3{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  font-size: 1.3em;
+}
+
+.contact-form{
+  padding: 6rem;
+  background-image: url(../img/meeting1.jpg);
+  background-position: center;
+  background-repeat:repeat-x;
+  opacity: 0.6;
+}
+fieldset{
+  padding: 2rem 1rem;
+  margin-top: 1rem;
+  border: none;
+}
+label{
+  font-size: 1.1em;
+  font-style: italic;
+  width: 100%;
+  border: 0px solid red;
+  display: inline-block;
+  margin: 0.3rem auto;
+}
+
+input{
+  width: 100%;
+  padding: 0.5rem 0 1rem 0.5rem;
+}
+.form-container{
+  border: 0px solid salmon;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+form{
+  margin: 0 auto;
+  border: 0px solid red;
+}
+
+/* Styling My Footer Tag!!1 */
+
+footer{
+  background-color: black;
+  text-align: center;
+}
+footer p{
+  color: white;
+  font-style: italic;
+  font-size: 1.5rem;
+}
+
+
+/* Adding Responsivness To Website */
+
+@media only screen and (max-width:768px){
+  /* Styling My Nav Tag */
+
+
+nav li{
+  border: 0px solid green;
+  width: 8rem;
+  text-align: center;
+  display: block;
+  margin-bottom: 0.7rem;
+}
+
+
+/* Styling my logo */
+
+.logo img{
+  height: 3.6875rem;
+  margin: 3px 6px;
+  border: 0px solid gray;
+  background-color: white;
+  padding: 0 0.8rem;
+  border: none;
+  border-radius: 35%;
+  display: none;
+}
+
+/* Styling The Home Section */
+
+
+.home h1{
+  color: white;
+  font-family:  sans-serif;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  right: 3.125rem;
+}
+
+
+/* Styling My Text */
+.our-restaurant{
+  line-height: 1.3; 
+  padding: 2px 0; 
+  width: 25rem;
+}
+.our-restaurant p{
+  padding: 4px 0;
+  display: inline;
+  margin: 0; 
+  color: wheat;
+  font-size: 2rem;
+}
+/* *********************** */
+
+/* Styling Restaurant's Service Section. */
+
+.services{
+  border: 0px solid red;
+  padding: 5rem;
+  background-color: silver;
+}
+.services h1{
+  border: 0px solid red;
+  margin-bottom: 5rem;
+  text-align: center;
+  font-size: 1rem;
+  color: white;
+}
+.box{
+  border: 3px solid gray;
+  /* width:25%; */
+  padding: 3rem 1rem;
+  text-align: center;
+  border: 3px solid wheat;
+  border-radius: 5%;
+}
+.box p{
+  line-height: 1.3rem;
+  word-spacing: 1px;
+  font-weight: 800;
+}
+
+.box h3{
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: space-between;
+  align-content: center;
+}
+
+
+
+
+
+
+}
